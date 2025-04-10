@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rtpbhasUTiKAteehunTfckfCuE9HB/Xu05hNPdTbUhnsM+hz6kouktjLGMoCUNCpVtXcrJU9+VxvmzH2LvWITA==",
+  "success": true,
+  "projectFilePath": "C:\\kms.auto\\juk_functional_programming\\juk_functional_programming.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\temaf\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
