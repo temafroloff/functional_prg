@@ -299,6 +299,13 @@ let rec search x tree =
     | Node(v, left, right) when x < v -> search x left
     | Node(_, _, right) -> search x right
 
+
+let mostFrequentElement list =
+    list
+    |> List.groupBy id 
+    |> List.maxBy (fun (_, group) -> List.length group) 
+    |> fst                       
+
 [<EntryPoint>]
 let main argv =
     let values = [5; 3; 8; 1; 4; 7; 9]
